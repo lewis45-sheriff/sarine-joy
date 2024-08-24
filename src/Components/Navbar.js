@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavBar.css'; 
+import image from "./Images/images.png"
 
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
         <div>
             <header className="header">
                 <div className="logo">
-                    <img src="src\Images\images.png" alt="Sarine-Joy Academy Logo" />
+                    <img src={image} alt="Sarine-Joy Academy Logo" />
                     <h1>Sarine-Joy Academy</h1>
                 </div>
                 <nav className="nav-links">
